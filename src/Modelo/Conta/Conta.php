@@ -11,7 +11,7 @@ class Conta
     public function __construct(Titular $titular)
     {
         $this->titular = $titular;
-        $this->saldo = 0;
+        $this->saldo   = 0;
 
         self::$numeroDeContas++;
     }

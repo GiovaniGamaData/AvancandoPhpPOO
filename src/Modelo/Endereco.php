@@ -13,7 +13,7 @@ class Endereco
     {
         $this->cidade = $cidade;
         $this->bairro = $bairro;
-        $this->rua = $rua;
+        $this->rua    = $rua;
         $this->numero = $numero;
     }
 

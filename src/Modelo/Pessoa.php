@@ -11,7 +11,7 @@ class Pessoa
     {
         $this->validaNome($nome);
         $this->nome = $nome;
-        $this->cpf = $cpf;
+        $this->cpf  = $cpf;
     }
 
     public function recuperaNome(): string
